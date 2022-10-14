@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F5F5F5;
+}
+
+
+
+
+/* --------------------------------*/
+.container{
+    width: 375px;
+    margin: 50px auto;
+    font-size: 12px;
+    border: 3px solid black;
+    border-bottom: none;
+    border-radius: 12px;
+}
+
+.p-10{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.fw-700{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+}
+/*------------------header--------------------------*/
+
+
+.page-header{
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.oldgram-logo{
+    height: 33px;
+    width: 127px;
+}
+
+.avatar{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+/*---------section - new post-----------------------*/
+
+.new-post{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.post-title{
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.post-image{
+    width: 375px;
+    cursor: pointer;
+}
+
+.like,
+.comment,
+.directm{
+    height: 23px;
+    width: 23px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.like:active,
+.comment:active,
+.directm:active{
+    transform: scale(1.10);
+}
+
+
